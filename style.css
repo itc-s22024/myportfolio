@@ -33,15 +33,22 @@
   justify-content: center;
   align-items: center;
   flex-flow: column wrap;
-  text-align: center ;
+  text-align: center
 }
 
 .h1 {
   color: #ffffff;
 }
+
 .nav ul li {
   list-style: none;
   font-size: 25px;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  /* align-items: end; */
 }
 
 .nav ul {
@@ -49,30 +56,62 @@
   flex-flow: row nowrap;
   width: 50vw;
   justify-content: space-around;
-  margin: 3em 0;
+  padding: 3em 0;
+  color: #fff;
+}
+
+.nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav ul li a:hover {
+  font-weight: 700;
 }
 
 .page1 {
-  background-image: url(sac.jpg) ;
+  /* background-image: url(sac.jpg) ; */
   justify-content: start;
   font-size: 90px;
   text-align: center;
   padding: 25px;
-  /* color: #ffffff; */
-
+  color: #fff;
+  height: 106vh;
+  background: rgb(255,255,255);
+  background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(0,0,0,1) 70%);
 }
+
+.container {
+  height: 100px;
+  background: rgb(84,124,184);
+  background: rgb(255,255,255);
+  background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(0,0,0,1) 130%);
+}
+
 
 .page2 {
   /* background-color: #c7f395; */
+  display: flex;
 }
 
 .page2 > div {
   display: flex;
 }
 
+.page2 > div > ul {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+  padding-left: 4em;
+}
+
 .page2 > div > ul > li {
+  /* font-size: 2em; */
   list-style: none;
   vertical-align: middle;
+  text-align: left;
+  padding-top: 10px;
 }
 
 .page3 {
