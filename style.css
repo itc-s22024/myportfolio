@@ -1,6 +1,6 @@
 .background_test {
   width: 100%;
-  background-image: url(sac.jpg) ;
+  /* background-image: url(sac.jpg) ; */
   /* background-position: center;
   background-repeat: repeat;
   background-size: cover;
@@ -25,7 +25,7 @@
 }
 
 .page {
-  color: #ffffff;
+  /* color: #ffffff; */
   height: 100vh;
   width: auto;
   /* background-color: #f69191; */
@@ -53,11 +53,12 @@
 }
 
 .page1 {
+  background-image: url(sac.jpg) ;
   justify-content: start;
   font-size: 90px;
   text-align: center;
   padding: 25px;
-  color: #ffffff;
+  /* color: #ffffff; */
 
 }
 
@@ -65,8 +66,13 @@
   /* background-color: #c7f395; */
 }
 
-.page2 > ul > li {
+.page2 > div {
+  display: flex;
+}
+
+.page2 > div > ul > li {
   list-style: none;
+  vertical-align: middle;
 }
 
 .page3 {
