@@ -1,0 +1,78 @@
+.background_test {
+  width: 100%;
+  background-image: url(sac.jpg) ;
+  /* background-position: center;
+  background-repeat: repeat;
+  background-size: cover;
+  overflow: hidden; */
+}
+
+/* .animated {
+  animation: poyoyon 0.5s cubic-bezier(0.12, 0, 0.39, 0) 1 forwards;
+  text-align: left;
+  color: #fff;
+  padding: 0 0 0 1em;
+} */
+
+* {
+  margin: 0;
+  padding: 0px;
+  scroll-behavior: smooth;
+}
+
+.nav {
+  background-color: black;
+}
+
+.page {
+  color: #ffffff;
+  height: 100vh;
+  width: auto;
+  /* background-color: #f69191; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column wrap;
+  text-align: center ;
+}
+
+.h1 {
+  color: #ffffff;
+}
+.nav ul li {
+  list-style: none;
+  font-size: 25px;
+}
+
+.nav ul {
+  display: flex;
+  flex-flow: row nowrap;
+  width: 50vw;
+  justify-content: space-around;
+  margin: 3em 0;
+}
+
+.page1 {
+  justify-content: start;
+  font-size: 90px;
+  text-align: center;
+  padding: 25px;
+  color: #ffffff;
+
+}
+
+.page2 {
+  /* background-color: #c7f395; */
+}
+
+.page2 > ul > li {
+  list-style: none;
+}
+
+.page3 {
+  /* background-color: #87c8ee; */
+}
+
+.page5 {
+  /* background-color: aqua; */
+}
